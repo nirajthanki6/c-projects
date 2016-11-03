@@ -3,7 +3,7 @@
  *  CS360 - c++
  *****************************************************************************/
 /*****************************************************************************
- *  main.c
+ *  ex2.c
  *
  *  Design a class named Person, Student and Employee.
  *  A Person has a Name, Address and phone Number.
