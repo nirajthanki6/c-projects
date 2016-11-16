@@ -20,7 +20,7 @@ class Car{   //declare Car Class
  	public:
  		 Car(int rpm,int gear,int speed){this->rpm=rpm; this->gear=gear; this->speed=speed;} // Parametric constractor of Car Class
 		 Car(){ rpm=0; gear=0; speed=0;	 }
-		 void setRpm(int rpm){ this->rpm=rpm;} // set the Rpm
+			 void setRpm(int rpm){ this->rpm=rpm;} // set the Rpm
 		 void setGear(int gear){ this->gear=gear;} // set the Gear
 		 void setSpeed(int speed){ this->speed=speed;} // set the Speed
 		 int getRpm(){ return rpm;} // get the Rpm
@@ -54,8 +54,8 @@ class RegularCar:public Car{ // Child class RegularCar of Parent Class Car
 			void setTireWidth(int tireWidth){this->tireWidth=tireWidth;} //set the Width of tire
 			int getTireWidth(){return tireWidth;} //get the Width of tire
 			void printDescription(){ //print description
-	         Car::printDescription();
-				cout << "TireWidth = " << tireWidth <<endl;
+	                Car::printDescription();
+			cout << "TireWidth = " << tireWidth <<endl;
 			}
 };  
 
