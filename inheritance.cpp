@@ -9,9 +9,9 @@
  *	a. A Person has a Name, Address and phone Number.
  *	b. A Student has an id and major.
  *	c. An Employee has a Salary and Employee Number.
- *		• Override the toString() method in each class to display all the fields.
- *		• Draw the UML diagram for the classes.
- *		• Write a test program that creates a Person, Student, and Employee and invokes their toString() methods.
+ *		â€¢ Override the toString() method in each class to display all the fields.
+ *		â€¢ Draw the UML diagram for the classes.
+ *		â€¢ Write a test program that creates a Person, Student, and Employee and invokes their toString() methods.
  *
  *  Author:  THANKI NIRAJ and 19376
  *****************************************************************************/
@@ -71,7 +71,7 @@ class student:public person {          // Declaration of student sub-class from 
 	}
 	int getid(){             // get the id for student
 		return id;
-	}
+ 	}
 	void setmajor(string major){    // set the Major for Student
 		this->major=major;
 	}
@@ -126,8 +126,8 @@ class employee:public person {      // Declaration of employee sub-class from pe
 int main()
  {
  	person p("Niraj","40640 High Street,Fremont-95438",51055679);
-    p.toString();
-    student s(19376,"Computer Science");
+        p.toString();
+        student s(19376,"Computer Science");
 	s.toString();
 	employee e(5000,1);
 	e.toString();
